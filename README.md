@@ -21,3 +21,12 @@ Hints:
 1. there are issues with the css. for some reason the words do not appear?
 2. there are issues with the code. the loop is really sloppy, hhhhhm.
 3. there's a sound on the page. you just need to listen for it. it's one click away.
+
+Changes:
+
+1. (Line 3) Added a space for cleaner code.
+2. (Line 7) Placed a function at the top of the code for the css changes.
+3. (Lines 22-30) Changed the color of content to white so that it will be visible on the black background. Changed the alignment of content and meat to center. Changed the class name of content to visible so that the contents of content would show up. Since the element "header" didn't have an id, I used getElementsByClassName to grab it and then align it to center as well.
+4. (Line 11) I decided to put hello_world in a var for shorter/cleaner code.
+5. (Lines 13) Instead of using a loop at all, we can use a function that turns an array to a string, while replacing the commas with null space to create a proper word. I would use this personally but am putting it as an alternative fix to for the sake of keeping the loop.
+6. (Lines 17-20) Created a function to play mySound on click as well as turns the text pink and the background green for a little bling.
