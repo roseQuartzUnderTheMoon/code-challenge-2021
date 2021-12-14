@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", allWorkAndNoPlayisNoFunAtAll, false);
 
 var myMessage = ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']; //see change 1 in README.md
-var i = 0, text, mySound;
+var text, mySound;
 
 function allWorkAndNoPlayisNoFunAtAll() {
 	changes(); //see change 2
