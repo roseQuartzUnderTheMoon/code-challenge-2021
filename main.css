@@ -1,13 +1,18 @@
-body {
-	background: black;
-	color: white;
-}
-.content {
-	color: black;
-}
-.invisible {
-	display: none;
-}
-.visible {
-	display: inherit;
-}
+html {
+	text-align: center ; /* mentioned in commentary 5 in README.md */
+  }
+  
+  
+  body {
+	  background: black; /*mentioned in commentary 6 */
+	  color: white;
+  }
+  .content {
+	  color: white; 
+  }
+  .invisible {
+	  display: none;
+  }
+  .visible {
+	  display: inherit;
+  }
