@@ -21,3 +21,11 @@ Hints:
 1. there are issues with the css. for some reason the words do not appear?
 2. there are issues with the code. the loop is really sloppy, hhhhhm.
 3. there's a sound on the page. you just need to listen for it. it's one click away.
+
+Changes:
+1. (Line 3) Added a space for cleaner code.
+2. (Line 7) Placed a function at the top of the code for the css changes.
+3. (Lines 23-30) Changed the color of content to white so that it will be visible on the black background. Changed the alignment of content and meat to center. Changed the class name of content to visible so that the contents of content would show up. Since the element "header" didn't have an id, I used getElementsByClassName to grab it and then align it to center as well.
+4. (Line 11) I decided to put hello_world in a var for shorter/cleaner code.
+5. (Lines 13-15) Used an enhanced for loop to go through each letter of myMessage because the original loop was in fact sloppy and the enhanced for loop is clean and to the point.
+6. (Lines 17-20) Created a function to play mySound on click as well as turns the text pink and the background green for a little bling.
