@@ -21,19 +21,3 @@ Hints:
 1. there are issues with the css. for some reason the words do not appear?
 2. there are issues with the code. the loop is really sloppy, hhhhhm.
 3. there's a sound on the page. you just need to listen for it. it's one click away.
-
-Commentary (Main Branch):
-
-JS FILE
-1. (Line 3) Cleaned up the code by putting a space in between the words.
-2. (Line 10) Let hello_world have it's own var because it was used more than once + looked cleaner.
-3. (Line 13) I felt that the cleanest method would be to replace the while loop and it's unecessary j var with an enhanced for loop.
-4. (Line 16) Did the onclick event totally in js because it looks cleanest.
-
-CSS FILE
-5. (Line 2) Used CSS to align the text because it's simple and short. Doesn't look messy.
-6. (Lines 7 + 11) One issue with the visibility of Hello World was that the backgroud and the content colors were both black. I changed
-   the content color to white so that it could be seen on the black background.
-
-HTML FILE
-7. (Line 22) The content setting was set to invisible, meaning that content wouldn't show up. I set it to visible.
